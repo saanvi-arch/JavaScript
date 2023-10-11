@@ -49,3 +49,26 @@ const myFun = function(){
 // function => function
 // array => object
 // object => object
+
+// ********************Memory***************************
+
+// Stack(primitive) , heap(non - primitive)
+
+let myname = "sita"
+let anothername = myname
+anothername = "gita"
+
+console.log(myname)
+console.log(anothername)
+
+let useone = {
+    email : "sita@google.com",
+    age : 22
+}
+
+let usertwo = useone
+
+usertwo.email = "gita@google.com"
+
+console.log(useone.email)
+console.log(usertwo.email)
