@@ -19,3 +19,33 @@ console.log(boolIsLoggedIn)
 // 0 =>false
 // "" => false
 // "saanvi" =>true
+
+// non primitive type : array , objects , functions 
+
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+console.log(id === anotherId)
+// the values of id and anotherId is same bhut it will show false because symbol is use to assign unique values
+
+const heros = ["sita" , "ram" , "gita"]
+let myobj = {
+    name: "rita",
+    age:22
+}
+
+const myFun = function(){
+    console.log("hello world ")
+}
+// we can declare our function in a variable aslo 
+
+// number => number
+// null => object
+// String => string 
+// bigInt => bigint 
+// undefined => undefined 
+// boolean => boolean
+// symbol => symbol
+// function => function
+// array => object
+// object => object
